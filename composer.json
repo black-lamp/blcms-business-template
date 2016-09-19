@@ -20,6 +20,13 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0"
     },
     "require-dev": {
+        "black-lamp/yii2-articles": "*",
+        "black-lamp/blcms-redirect": "*",
+        "black-lamp/blcms-languages": "dev-master",
+        "black-lamp/blcms-staticpage": "0.*",
+
+        "dektrium/yii2-user": "0.9.*@dev",
+
         "yiisoft/yii2-debug": "~2.0.0",
         "yiisoft/yii2-gii": "~2.0.0",
         "yiisoft/yii2-faker": "~2.0.0",
