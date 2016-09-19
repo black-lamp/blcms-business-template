@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "11e9d137558a59a71a4ea0878d12610b",
-    "content-hash": "38867685368485c776b5b447b334f86c",
+    "hash": "c4465e780d17ece1dfabe27cc141a6bd",
+    "content-hash": "32782b0599c755f2cf56ad2a57181381",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -596,6 +596,66 @@
     ],
     "packages-dev": [
         {
+            "name": "2amigos/yii2-tinymce-widget",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yii2-tinymce-widget.git",
+                "reference": "d58bad3ede450f86acd475fb4ecda982b980132b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2amigos/yii2-tinymce-widget/zipball/d58bad3ede450f86acd475fb4ecda982b980132b",
+                "reference": "d58bad3ede450f86acd475fb4ecda982b980132b",
+                "shasum": ""
+            },
+            "require": {
+                "tinymce/tinymce": ">=4",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "asset-installer-paths": {
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "dosamigos\\tinymce\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "2amigOS! Consulting Group",
+                    "email": "hola@2amigos.us",
+                    "homepage": "http://2amigos.us",
+                    "role": "Developer"
+                }
+            ],
+            "description": "TinyMCE widget for Yii2.",
+            "homepage": "http://yiiwheels.com/extension/tinymce-widget",
+            "keywords": [
+                "2amigos",
+                "extension",
+                "tinymce",
+                "widget",
+                "yii",
+                "yii 2",
+                "yii2"
+            ],
+            "time": "2015-03-28 21:53:43"
+        },
+        {
             "name": "behat/gherkin",
             "version": "dev-master",
             "source": {
@@ -653,6 +713,254 @@
                 "parser"
             ],
             "time": "2016-09-18 12:15:51"
+        },
+        {
+            "name": "black-lamp/blcms-languages",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/black-lamp/blcms-languages.git",
+                "reference": "0f5d54a53948d4a2214b358b5d96c5ca986531b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/black-lamp/blcms-languages/zipball/0f5d54a53948d4a2214b358b5d96c5ca986531b5",
+                "reference": "0f5d54a53948d4a2214b358b5d96c5ca986531b5",
+                "shasum": ""
+            },
+            "require": {
+                "black-lamp/yii2-multi-lang": "*",
+                "yiisoft/yii2": ">=2.0.4"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "bl\\cms\\language\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Gutsulyak Vadim",
+                    "email": "guts.vadim@gmail.com"
+                }
+            ],
+            "description": "Black-Lamp CMS languages module.",
+            "keywords": [
+                "black-lamp",
+                "cms",
+                "languages"
+            ],
+            "time": "2016-09-19 13:15:49"
+        },
+        {
+            "name": "black-lamp/blcms-redirect",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/black-lamp/blcms-redirect.git",
+                "reference": "399804c5c82de79913295245d4892ab4568ac4d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/black-lamp/blcms-redirect/zipball/399804c5c82de79913295245d4892ab4568ac4d2",
+                "reference": "399804c5c82de79913295245d4892ab4568ac4d2",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": ">=2.0.4"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "bl\\cms\\redirect\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Gutsulyak Vadim",
+                    "email": "guts.vadim@gmail.com"
+                }
+            ],
+            "description": "Yii 2 redirect module",
+            "keywords": [
+                "black-lamp",
+                "cms",
+                "redirects"
+            ],
+            "time": "2016-09-14 10:53:38"
+        },
+        {
+            "name": "black-lamp/blcms-staticpage",
+            "version": "0.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/black-lamp/blcms-staticpage.git",
+                "reference": "502298f69219492cda0dce4f1f198f67ab9e4803"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/black-lamp/blcms-staticpage/zipball/502298f69219492cda0dce4f1f198f67ab9e4803",
+                "reference": "502298f69219492cda0dce4f1f198f67ab9e4803",
+                "shasum": ""
+            },
+            "require": {
+                "2amigos/yii2-tinymce-widget": "*",
+                "black-lamp/yii2-multi-lang": "1.1.*",
+                "black-lamp/yii2-seo": "0.1.*",
+                "php": ">=5.4.0",
+                "yii2tech/ar-position": "*",
+                "yiisoft/yii2": ">=2.0.4",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "bl\\cms\\seo\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Albert Gainutdinov",
+                    "email": "xalbert.einsteinx@gmail.com"
+                }
+            ],
+            "description": "Module for static pages",
+            "keywords": [
+                "page",
+                "static",
+                "yii2"
+            ],
+            "time": "2016-08-31 22:46:24"
+        },
+        {
+            "name": "black-lamp/yii2-articles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/black-lamp/yii2-articles.git",
+                "reference": "fed7e6b1d666c952ad8a363e4c30462929b3d7eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/black-lamp/yii2-articles/zipball/fed7e6b1d666c952ad8a363e4c30462929b3d7eb",
+                "reference": "fed7e6b1d666c952ad8a363e4c30462929b3d7eb",
+                "shasum": ""
+            },
+            "require": {
+                "2amigos/yii2-tinymce-widget": "*",
+                "black-lamp/yii2-multi-lang": "1.1.*",
+                "black-lamp/yii2-seo": "0.1.*",
+                "php": ">=5.4.0",
+                "yii2tech/ar-position": "*",
+                "yiisoft/yii2": ">=2.0.4",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "bl\\articles\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Cherednyk Maxim",
+                    "email": "maks757q@gmail.com"
+                },
+                {
+                    "name": "Gutsulyak Vadim",
+                    "email": "guts.vadimq@gmail.com"
+                }
+            ],
+            "description": "Articles extension for the Yii framework",
+            "keywords": [
+                "articles",
+                "yii2"
+            ],
+            "time": "2016-09-06 13:04:28"
+        },
+        {
+            "name": "black-lamp/yii2-multi-lang",
+            "version": "1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/black-lamp/yii2-multi-lang.git",
+                "reference": "2cc823d2d9e383897de568f3513a84ce514cb0be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/black-lamp/yii2-multi-lang/zipball/2cc823d2d9e383897de568f3513a84ce514cb0be",
+                "reference": "2cc823d2d9e383897de568f3513a84ce514cb0be",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": ">=2.0.4"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "bl\\multilang\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Gutsulyak Vadim",
+                    "email": "guts.vadim@gmail.com"
+                },
+                {
+                    "name": "Saiko Ruslan",
+                    "email": "ruslan260896@gmail.com"
+                }
+            ],
+            "description": "Yii2 url manager with supporting multi languages.",
+            "keywords": [
+                "language",
+                "multi",
+                "urlmanager",
+                "yii2"
+            ],
+            "time": "2016-05-12 15:21:48"
+        },
+        {
+            "name": "black-lamp/yii2-seo",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/black-lamp/yii2-seo.git",
+                "reference": "48b567efc8a983b294a1f15ef1a17d9caecf668d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/black-lamp/yii2-seo/zipball/48b567efc8a983b294a1f15ef1a17d9caecf668d",
+                "reference": "48b567efc8a983b294a1f15ef1a17d9caecf668d",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": ">=2.0.4"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "bl\\seo\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Gutsulyak Vadim",
+                    "email": "guts.vadim@gmail.com"
+                }
+            ],
+            "description": "SEO extension for the Yii framework",
+            "keywords": [
+                "seo",
+                "yii2"
+            ],
+            "time": "2016-06-10 11:28:59"
         },
         {
             "name": "bower-asset/typeahead.js",
@@ -805,6 +1113,64 @@
             ],
             "description": "BDD assertion library for PHPUnit",
             "time": "2016-08-29 22:49:25"
+        },
+        {
+            "name": "dektrium/yii2-user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dektrium/yii2-user.git",
+                "reference": "d9530a1b4213c2bd7fd8eb05d185dfe9dffde558"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/d9530a1b4213c2bd7fd8eb05d185dfe9dffde558",
+                "reference": "d9530a1b4213c2bd7fd8eb05d185dfe9dffde558",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "^2.0.0",
+                "yiisoft/yii2-authclient": "^2.1.0",
+                "yiisoft/yii2-bootstrap": "^2.0.0",
+                "yiisoft/yii2-swiftmailer": "^2.0.0"
+            },
+            "require-dev": {
+                "codeception/specify": "^0.4.3",
+                "codeception/verify": "^0.3.1",
+                "yiisoft/yii2-codeception": "^2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "dektrium\\user\\Bootstrap",
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev",
+                    "dev-develop": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "dektrium\\user\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Erofeev",
+                    "email": "dmeroff@gmail.com",
+                    "homepage": "http://dmeroff.ru"
+                }
+            ],
+            "description": "Flexible user registration and authentication module for Yii2",
+            "keywords": [
+                "User management",
+                "dektrium",
+                "yii2",
+                "yii2-user"
+            ],
+            "time": "2016-08-13 15:45:38"
         },
         {
             "name": "doctrine/instantiator",
@@ -1700,12 +2066,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "d8e60a5619fff77f9669da8997697443ef1a1d7e"
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/d8e60a5619fff77f9669da8997697443ef1a1d7e",
-                "reference": "d8e60a5619fff77f9669da8997697443ef1a1d7e",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
                 "shasum": ""
             },
             "require": {
@@ -1739,7 +2105,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-01-06 21:40:42"
+            "time": "2016-09-19 16:02:08"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -2764,6 +3130,52 @@
             "time": "2016-09-14 23:17:14"
         },
         {
+            "name": "tinymce/tinymce",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tinymce/tinymce-dist.git",
+                "reference": "5d763d8b00bf7bb0f5020b5e9a6e7a602fefa8ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/5d763d8b00bf7bb0f5020b5e9a6e7a602fefa8ac",
+                "reference": "5d763d8b00bf7bb0f5020b5e9a6e7a602fefa8ac",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "tinymce.js",
+                        "plugins/*/plugin.js",
+                        "themes/*/theme.js"
+                    ],
+                    "files": [
+                        "tinymce.min.js",
+                        "plugins/*/plugin.min.js",
+                        "themes/*/theme.min.js",
+                        "skins/**"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "description": "Web based JavaScript HTML WYSIWYG editor control.",
+            "homepage": "http://www.tinymce.com",
+            "keywords": [
+                "editor",
+                "html",
+                "javascript",
+                "richtext",
+                "tinymce",
+                "wysiwyg"
+            ],
+            "time": "2016-09-01 11:11:25"
+        },
+        {
             "name": "webmozart/assert",
             "version": "dev-master",
             "source": {
@@ -2812,6 +3224,103 @@
                 "validate"
             ],
             "time": "2016-08-18 09:30:53"
+        },
+        {
+            "name": "yii2tech/ar-position",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2tech/ar-position.git",
+                "reference": "337a1b0240aea2722b8dff4461c2ee322fa5414e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2tech/ar-position/zipball/337a1b0240aea2722b8dff4461c2ee322fa5414e",
+                "reference": "337a1b0240aea2722b8dff4461c2ee322fa5414e",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii2tech\\ar\\position\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "Provides support for ActiveRecord custom sort in Yii2",
+            "keywords": [
+                "active",
+                "order",
+                "position",
+                "record",
+                "sort",
+                "yii2"
+            ],
+            "time": "2016-02-06 14:14:56"
+        },
+        {
+            "name": "yiisoft/yii2-authclient",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-authclient.git",
+                "reference": "5ed7ebfda270d87197f7640b2a9c046297080cac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-authclient/zipball/5ed7ebfda270d87197f7640b2a9c046297080cac",
+                "reference": "5ed7ebfda270d87197f7640b2a9c046297080cac",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2-httpclient": "~2.0.1"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\authclient\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "External authentication via OAuth and OpenID for the Yii framework",
+            "keywords": [
+                "OpenId",
+                "api",
+                "auth",
+                "oauth",
+                "yii2"
+            ],
+            "time": "2016-08-29 09:21:09"
         },
         {
             "name": "yiisoft/yii2-debug",
@@ -2959,11 +3468,61 @@
                 "yii2"
             ],
             "time": "2016-09-05 12:04:28"
+        },
+        {
+            "name": "yiisoft/yii2-httpclient",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-httpclient.git",
+                "reference": "9921313998c2cb9dd1639d6ae500ce1e9fc4712d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/9921313998c2cb9dd1639d6ae500ce1e9fc4712d",
+                "reference": "9921313998c2cb9dd1639d6ae500ce1e9fc4712d",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\httpclient\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "HTTP client extension for the Yii framework",
+            "keywords": [
+                "curl",
+                "http",
+                "httpclient",
+                "yii2"
+            ],
+            "time": "2016-09-19 12:05:09"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "black-lamp/blcms-languages": 20,
+        "dektrium/yii2-user": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
