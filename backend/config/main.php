@@ -31,15 +31,6 @@ return [
         'seo' => [
             'class' => 'bl\cms\seo\backend\Module'
         ],
-        'user' => [
-            'class' => 'dektrium\user\Module',
-            'enableRegistration' => false,
-            'admins' => ['admin'],
-            'as backend' => [
-                'class' => 'dektrium\user\filters\BackendFilter',
-                'only' => ['register'], // Block View Register Backend
-            ],
-        ]
     ],
     'components' => [
         'i18n' => [
@@ -59,13 +50,8 @@ return [
             'csrfParam' => '_csrf-backend',
         ],
         'user' => [
-            'identityClass' => 'dektrium\user\models\User',
+            'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
-            'identityCookie' => [
-                'name'     => '_backendIdentity',
-                'path'     => '/admin',
-                'httpOnly' => true,
-            ],
         ],
         'session' => [
             'name' => 'BACKENDSESSID',

@@ -24,6 +24,7 @@
         "black-lamp/blcms-redirect": "*",
         "black-lamp/blcms-languages": "dev-master",
         "black-lamp/blcms-staticpage": "0.*",
+        "black-lamp/blcms-auth": "*",
 
         "dektrium/yii2-user": "0.9.*@dev",
 
