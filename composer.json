@@ -26,8 +26,6 @@
         "black-lamp/blcms-staticpage": "0.*",
         "black-lamp/blcms-auth": "*",
 
-        "dektrium/yii2-user": "0.9.*@dev",
-
         "yiisoft/yii2-debug": "~2.0.0",
         "yiisoft/yii2-gii": "~2.0.0",
         "yiisoft/yii2-faker": "~2.0.0",
